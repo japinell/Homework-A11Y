@@ -40,8 +40,6 @@ The following image shows the web application's appearance and functionality:
 
 ## Completed Work
 
-Follow these instructions to create your project and deploy it to GitHub Pages:
-
 1. URL of the deployed application:
 
 https://japinell.github.io/Homework-A11Y/
