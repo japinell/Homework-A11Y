@@ -1,6 +1,12 @@
-/*------------*/
-/* GENERAL    */
-/*------------*/
+/* JAP: 03/15/2021 
+    TODO:           
+      Convert the content and benefits sections
+      to flex-boxes.
+*/
+
+/*
+  GENERAL    
+*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,22 +17,15 @@ body {
   background-color: #d9dcd6;
 }
 
-/*------------*/
-/* HEADER     */
-/*------------*/
+/*
+  HEADER     
+*/
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
-
-  /* JAP: 03/15/2021 */
-  /* position: fixed;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; */
   overflow: auto;
 }
 
@@ -61,10 +60,12 @@ a {
   text-decoration: none;
 }
 
-/* JAP: 03/15/2021 */
+/* 
+  JAP: 03/15/2021 
+  Added hover effect on links.
+*/
 a:hover {
   color: yellow;
-  /* border: 5px solid white; */
   border-bottom: 5px solid white;
 }
 
@@ -76,20 +77,15 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: contain; */
-}
-
-.hero::after {
-  clear: both;
 }
 
 p {
   font-size: 16px;
 }
 
-/*------------*/
-/* CONTENT    */
-/*------------*/
+/*
+  CONTENT   
+*/
 .content-wrapper {
   width: 75%;
   justify-content: center;
@@ -161,9 +157,9 @@ p {
   max-width: 150px;
 }
 
-/*------------*/
-/* FOOTER     */
-/*------------*/
+/*
+  FOOTER    
+*/
 .footer {
   padding: 30px;
   clear: both;
